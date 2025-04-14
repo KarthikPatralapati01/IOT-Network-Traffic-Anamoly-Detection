@@ -53,7 +53,7 @@ The full pipeline is implemented in a Jupyter Notebook, covering:
 import pickle
 model = pickle.load(open('final_model.pkl', 'rb'))
 predictions = model.predict(new_data)
-
+```
 🧪 Results
 Model	Accuracy	Notes
 Random Forest	~93%	Strong baseline
